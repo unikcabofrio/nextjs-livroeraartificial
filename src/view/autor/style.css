@@ -1,0 +1,32 @@
+.autor{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.autor > img {
+    width: 450px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.autor > div {
+    width: 80%;
+    padding-left: 5rem;
+}
+
+.autor > div > h1{
+    color: #49B970;
+    font-size: 5rem;
+}
+
+.autor > div > i {
+    font-size: 1.2rem;
+}
+
+
+.autor > div > p {
+    width: 80%;
+    margin: 1rem 0;
+}

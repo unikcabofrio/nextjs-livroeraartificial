@@ -1,0 +1,20 @@
+.historia{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #49B970;
+}
+
+.historia > h1 {
+    font-size: 4rem;
+    color:#FFF;
+    animation: slideleft 2s;
+}
+
+.historia > p{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+}

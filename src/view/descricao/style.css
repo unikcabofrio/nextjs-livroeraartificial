@@ -1,0 +1,52 @@
+.descri{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descri > img {
+    width: 30%;
+}
+
+.descri > div {
+    width: 60%;
+}
+
+.descri > div > h1 {
+    color: #49B970;
+    font-size: 4rem;
+}
+
+.descri > div > div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.descri > div > div > .buy{
+    width: 50%;
+    background-color: #49B970;
+    border: 2px solid #49B970;
+    color:#FFF;
+    transition: all .2s;
+}
+
+.descri > div > div >.buy:hover{
+    background-color: #FFF;
+    color:#49B970;
+}
+
+.descri > div > div > .free{
+    background-color: #FFF;
+    border: 2px solid #49B970;
+    color:#49B970;
+    transition: all .2s;
+}
+
+.descri > div > div >.free:hover{
+    background-color: #49B970;
+    border: 2px solid #49B970;
+    color:#FFF;
+}

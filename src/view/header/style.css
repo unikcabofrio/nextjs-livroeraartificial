@@ -1,0 +1,79 @@
+.header {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header>img {
+    width: 40%;
+    animation: slideleft 1.5s;
+}
+
+.header>div {
+    width: 50%;
+    animation: slideright 1.5s;
+}
+
+.header>div>h1 {
+    color: #49B970;
+    font-size: 5rem;
+    margin-bottom: -1rem;
+}
+
+.header>div>p {
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.header>div>div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>div>div>.buy {
+    width: 50%;
+    background-color: #49B970;
+    border: 2px solid #49B970;
+    color: #FFF;
+    transition: all .2s;
+}
+
+.header>div>div>.buy:hover {
+    background-color: #FFF;
+    color: #49B970;
+}
+
+.header>div>div>.free {
+    background-color: #FFF;
+    border: 2px solid #49B970;
+    color: #49B970;
+    transition: all .2s;
+}
+
+.header>div>div>.free:hover {
+    background-color: #49B970;
+    border: 2px solid #49B970;
+    color: #FFF;
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateX(110%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideright {
+    from {
+        transform: translateX(-110%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
