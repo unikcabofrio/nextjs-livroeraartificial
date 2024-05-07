@@ -3,7 +3,7 @@
 
 site criado em next focado em adoção de animal
 
-![Imagem](https://github.com/unikcabofrio/nextjs-adoteumanimal/blob/main/public/site.png?raw=true)
+![Imagem](https://github.com/unikcabofrio/nextjs-livroeraartificial/blob/main/public/site.png?raw=true)
 
 ## Stack utilizada
 

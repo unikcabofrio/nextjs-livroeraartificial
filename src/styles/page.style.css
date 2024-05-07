@@ -1,11 +1,10 @@
 .container{
     width: 100%;
-    overflow: auto;
+    overflow-x: auto;
     position: relative;
 }
 
 .waveHeader{
-    height: 60%;  
     margin-top: -12rem;
     margin-left: -10rem;
     margin-bottom: -5rem;
