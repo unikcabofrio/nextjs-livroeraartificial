@@ -1,7 +1,9 @@
 import { Roboto } from 'next/font/google'
+import './responsivo.css'
 import './global.css'
 import './icon.css'
 import './page.style.css'
+
 
 export const roboto = Roboto({
     weight: ['400', '700'],

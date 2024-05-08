@@ -1,0 +1,194 @@
+/* 480px */
+@media screen and (max-width: 480px) {
+
+    .header,
+    .historia,
+    .autor,
+    .avalicao,
+    .descri {
+        padding: 10px !important;
+    }
+
+    .header{
+        flex-direction: column-reverse !important;
+    }
+
+    .header>img,
+    .header>div>div,
+    .autor>div,
+    .autor>div>p,
+    .avalicao > div > .boxCards,
+    .descri>img,
+    .descri>div>div {
+        width: 100% !important;
+    }
+
+    .header>div{
+        text-align: center;
+    }
+
+    .header>div,
+    .descri>div {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+
+    .header>div>div,
+    .descri>div>div {
+        justify-content: space-around !important;
+    }
+
+    .header>div>h1,
+    .historia>h1,
+    .autor>div>h1,
+    .avalicao>h1,
+    .descri>div>h1  {
+        font-size: 3rem !important;
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+
+    .header>div>div>button,
+    .descri>div>div>button {
+        width: 45%;
+    }
+
+    .autor,
+    .descri {
+        flex-direction: column !important;
+    }
+
+    .autor>div {
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    .avalicao>div {
+        grid-template-columns: 1fr !important;
+    }
+
+    .waveHeader {
+        margin-top: 0 !important;
+    }
+}
+
+/* min tablets */
+@media (min-width: 481px) and (max-width: 740px) {
+
+    .header,
+    .historia,
+    .autor,
+    .avalicao,
+    .descri {
+        padding: 20px !important;
+    }
+
+    .header>img,
+    .descri>img {
+        width: 50% !important;
+    }
+
+    .header>div>div,
+    .autor>div,
+    .autor>div>p,
+    .avalicao > div > .boxCards,
+    .descri>div>div {
+        width: 100% !important;
+    }
+
+    .header>div>div,
+    .descri>div>div  {
+        justify-content: space-around !important;
+    }
+
+    .header>div>h1,
+    .historia>h1,
+    .autor>div>h1,
+    .avalicao>h1,
+    .descri>div>h1  {
+        font-size: 3rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .header>div>div>button,
+    .descri>div>div>button {
+        width: 45%;
+    }
+
+    .autor>div {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .avalicao>div {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .waveHeader {
+        margin-top: -2rem !important;
+    }
+}
+
+/* tablets */
+@media (min-width: 741px) and (max-width: 980px) {
+
+    .header,
+    .historia,
+    .autor,
+    .avalicao,
+    .descri {
+        padding: 25px !important;
+    }
+
+    .header>div>h1,
+    .historia>h1,
+    .autor>div>h1,
+    .avalicao>h1,
+    .descri>div>h1  {
+        font-size: 4rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .header>div>div,
+    .descri>div>div {
+        width: 50% !important;
+    }
+
+    .avalicao>div {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+    .waveHeader {
+        margin-top: -4rem !important;
+    }
+}
+
+/* iPads */
+@media (min-width: 981px) and (max-width: 1024px) {
+
+    .header,
+    .historia,
+    .autor,
+    .avalicao,
+    .descri {
+        padding: 30px !important;
+    }
+
+    .header>div>h1,
+    .historia>h1,
+    .autor>div>h1,
+    .avalicao>h1,
+    .descri>div>h1  {
+        font-size: 4rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .header>div>div,
+    .descri>div>div {
+        width: 50% !important;
+    }
+
+    .waveHeader {
+        margin-top: -5rem !important;
+    }
+}

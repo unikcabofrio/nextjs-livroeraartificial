@@ -41,9 +41,6 @@ export default function Descricao(){
                 <Button titulo={"Comprar"} className={'buy'} onClick={()=>{clickButton()}}/>
                 <Button titulo={"Ler Amostra"} className={'free'} onClick={()=>{clickButton()}}/>
                 </div>
-                <div>
-                
-                </div>
             </div>
             <Imagem src={Livro} alt={"livro"}/>
         </div>

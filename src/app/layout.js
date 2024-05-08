@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={S.roboto.className}>{children}</body>
+      <body className={`${S.roboto.className} notScroll`}>{children}</body>
     </html>
   );
 }

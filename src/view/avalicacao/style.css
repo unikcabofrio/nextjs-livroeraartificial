@@ -40,7 +40,6 @@
 
 .avalicao > div > .boxCards > div{
     width: 100%;
-    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +48,7 @@
 
 .avalicao > div > .boxCards > .text{
     justify-content: center;
+    height: 80%;
 }
 
 .avalicao > div > .boxCards > div > div{
